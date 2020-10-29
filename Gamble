@@ -1,0 +1,38 @@
+import java io.*;
+public class Gamble
+{
+public static void main(String s[])
+{
+System.out.println("Welcome to Gamble");
+int stake  = 100;
+int bets = 1;
+int day = 20;
+int percent;
+int totalamount;
+	public void Winlose()
+	{
+	if(bets>0) {
+		System.out.println("Win");
+	else
+		System.out.println("Loss");
+	
+   }
+   public void Percent()
+   {
+		percent=stake*50/100;
+		if(percent<50){
+			System.out.println("Continue the game");
+		else
+			System.out.println("Leave the game");
+		}
+   }
+   public void Totalamount()
+   {
+		totalamount=stake+bets;
+   if (day=0; day<20; day++)
+		System.out.println("Total Amount for 20days:" + totalamount);
+  else
+		System.out.println("Loss");
+	}
+}
+}
